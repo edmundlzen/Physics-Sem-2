@@ -88,8 +88,112 @@ If a charge Q is placed at a point which has an electric field intensity of E, t
 
 \begin{figure}[h]
     \centering
-    \includegraphics{figures/6.png}
+    \includegraphics[scale=0.6]{figures/6.png}
 \end{figure}
 
+Horizontally, its acceleration iz zero, and moves at a constant velocity, \(u_x\).
+
+\begin{gather*}
+    \text{Horizontally, } \\
+    a_x =0,               \\
+    v_x =u_x,               \\
+    \text{whereby \(u_x\) is the initial velocity.}
+\end{gather*}
+
+Vertically, it is acted on by an upward force \(EQ\), having a constant upward acceleration of $\frac{EQ}{m}$.
+
+\begin{gather*}
+    \text{Vertically,} \\
+    F=EQ,             \\
+    F=ma,             \\
+    a=\frac{EQ}{m}
+\end{gather*}
+
+\newpage
+
+\subsubsection{Commonly used formulae}
+\begin{mdframed}
+    Time spent inside the electric field:
+    \begin{equation}
+        t=\frac{L}{u_x}
+    \end{equation}
+\end{mdframed}
+
+\begin{mdframed}
+    Vertical displacement of the electron, \(h\):
+    \begin{align}
+        s                      & =ut+\frac{1}{2}at^2                           \\
+        \text{Substituting } a & =\frac{EQ}{m} \text{ and } t=\frac{L}{u_x}    \\
+        h                      & =0+\frac{1}{2}(\frac{EQ}{m})(\frac{L}{u_x})^2 \\
+        h                      & =\frac{1}{2}(\frac{EQ}{m})(\frac{L}{u_x})^2
+    \end{align}
+\end{mdframed}
+
+\begin{mdframed}
+    Vertical velocity of the electron at B:
+    \begin{align}
+        v_y & =u_y+at                        \\
+        v_y & =0+\frac{EQ}{m}(\frac{L}{u_x})
+    \end{align}
+\end{mdframed}
+
+\begin{mdframed}
+    Horizontal velocity of the electron at B:
+    \begin{align}
+        At \text{ B, } v_x & =u_x
+    \end{align}
+    \begin{center}
+        (Since there is no horizontal acceleration, the horizontal velocity remains constant.)
+    \end{center}
+\end{mdframed}
+
+\begin{mdframed}
+    Actual velocity of the electron at B:
+    \begin{align}
+        v=\sqrt{v_x^2+v_y^2}
+    \end{align}
+\end{mdframed}
+
+\begin{mdframed}
+    Direction of the motion of the electron at B:
+    \begin{align}
+        \tan{\theta} & =\frac{v_y}{v_x}
+    \end{align}
+\end{mdframed}
+
+\pagebreak
+
+\begin{mdframed}
+    Total linear deflection of the electron on the screen, \(GC=h+y\):
+    \begin{align*}
+        h  & = \frac{1}{2}(\frac{EQ}{m})(\frac{L}{u_x})^2,               \\
+        y  & = D \tan{\theta}                                            \\
+        GC & = \frac{1}{2}(\frac{EQ}{m})(\frac{L}{u_x})^2+D \tan{\theta}
+    \end{align*}
+    \begin{center}
+        \(h=\) the \emph{parabolic} motion of the electron while in the electric field
+
+        \(y=\) the \emph{linear} deflection of the electron after exiting the electric field
+    \end{center}
+\end{mdframed}
+
+\newpage
+
+\section{Gauss's Law}
+\subsection{Gauss's Law}
+
+\begin{gather*}
+    \Phi=\frac{Q}{\epsilon} \\
+    \text{where } \epsilon= \text{permittivity of the medium}
+\end{gather*}
+
+\begin{mdframed}
+    Definition: The \textbf{net} electric flux, \(\Phi\), passing through a \textbf{closed surface} (Gaussian surface) is equal to the total net charge Q inside the closed surface divided by permittivity, \(\epsilon\), of the medium.
+\end{mdframed}
+If the charge is in vacuum, then Gauss's law is written as
+\begin{gather*}
+    \Phi=\frac{Q}{\epsilon_0} \\
+    \text{where } \epsilon_0= \text{permittivity of vacuum}
+\end{gather*}
 
 \end{document}
