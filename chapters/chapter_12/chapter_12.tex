@@ -204,4 +204,53 @@ If the charge is in vacuum, then Gauss's law is written as
     \text{where } \epsilon_0= \text{permittivity of vacuum}
 \end{gather*}
 
+\subsection{Application of Gauss Law}
+
+\subsubsection{Using Gauss's Law to determine the electric field strength for an isolated point charge/charged spherical conductor:}
+\begin{align*}
+    \text{Gauss's Law: } \Phi & =\frac{Q}{\epsilon_0}        \\
+    \intertext{\centering Because electric field intensity, \(E\) at a point can also be defined as the amount of electric flux per unit area (a.k.a. the electric flux density),}
+    E                         & =\frac{\Phi}{A}              \\
+    \intertext{\centering Substituting \(\Phi=\frac{Q}{\epsilon_0}\),}
+    E                         & =\frac{Q}{\epsilon_0A}
+    \intertext{\centering If the charge is uniformly distributed over the surface of a sphere with radius \(r\),}
+    \text{Hence, } E          & =\frac{Q}{4\pi\epsilon_0r^2} \\
+\end{align*}
+\emph{This formula can also be applied for an isolated point charge.}
+
+\bigskip
+
+However, it must be noted that this formula is only applicable to situations in which the charge is \textbf{uniformly distributed at the surface of a sphere}.
+
+\pagebreak
+
+Inside the sphere, the electric field strength is zero, as the electric field lines cancel each other out.
+\begin{equation*}
+    \text{Hence}, E=0
+\end{equation*}
+
+Outside the sphere, at a distance of \(r\) from the center of the sphere, the electric field strength is given by
+\begin{equation*}
+    E=\frac{Q}{4\pi\epsilon_0r^2}\
+\end{equation*}
+
+\subsubsection{Using Gauss's Law to determine the electric field strength for a uniformly charged conducting plate:}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{figures/9.png}
+\end{figure}
+
+\begin{align*}
+    \text{Gauss's Law: } \Phi & =\frac{Q}{\epsilon_0}      \\
+    \intertext{\centering Because electric field intensity, \(E\) at a point can also be defined as the amount of electric flux per unit area (a.k.a. the electric flux density),}
+    E                         & =\frac{\Phi}{A}            \\
+    \intertext{\centering Substituting \(\Phi=\frac{Q}{\epsilon_0}\),}
+    E                         & =\frac{Q}{\epsilon_0A}
+    \intertext{\centering Assuming the charged plate (top surface of the cylinder) has a surface charge density of \(\sigma\) cm\(^{-2}\),}
+    \sigma                    & =\frac{Q}{A}               \\
+    Q                         & =\sigma A                  \\
+    \text{Therefore, } E      & =\frac{\sigma}{\epsilon_0}
+\end{align*}
+
 \end{document}
